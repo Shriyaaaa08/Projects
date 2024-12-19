@@ -1,0 +1,14 @@
+back_image {
+     background: url(Image.jpeg)no repeat;
+	 -webkit-background-size: cover;
+	 background-size: cover;
+	 height: 100vh;
+}
+
+style {
+	color:white;
+	position: absolute
+	top: 50%
+	left: 50%
+	tranform: translate(-50%,-50%);
+}

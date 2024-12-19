@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h3> Multiple choice Ouestion </h3>
+<h1> What is your Favourite Color ?</h1>
+
+<p> Click the button to hide all elements with class name "color":</p>
+
+<button onclick="myFunction()">Options</button>
+
+<h2 class="color">Blue</h2>
+
+<h2 class="color">Yellow</h2>
+
+<h2 class="color">Red</h2>
+
+<h2 class="color">Green</h2>
+
+<script> 
+function myFunction() {
+  var x = document.getElementsByClassName("color");
+  for (var i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+} 
+</script>
+
+</body>
+</html>
+  
+  
